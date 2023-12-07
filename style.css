@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-----START EDITING HERE------*/
+
+@font-face{
+	font-family:'LilitaOne-Regular';
+	src: url('LilitaOne-Regular.ttf');
+}
+
+@font-face{
+	font-family:'KeeponTruckin';
+	src: url('KeeponTruckin.ttf');
+
+}
+
+body {
+	background-color:#FAF9F6;
+	font-size: 18px;
+}
+
+h1 { 
+	color:#000000;
+	font-family: 'LilitaOne-Regular', Helvetica, sans-serif;
+	font-size: 300%;
+	text-align: center;
+	margin: 20px;
+	width: 30%;
+	float: right;
+}
+
+h2 {
+	color:#000000;
+	font-family: 'LilitaOne-Regular', Helvetica, sans-serif;
+	font-size: 300%;
+	text-align: center;
+}
+
+h5 { 
+	color:#000000;
+	color:#000000;
+	font-family: 'LilitaOne-Regular', Helvetica, sans-serif;
+	font-size: 225%;
+	padding: 10px
+}
+
+h3 {
+	color:#000000;
+	color:#000000;
+	font-family: 'LilitaOne-Regular', Helvetica, sans-serif;
+	font-size: 225%;
+	padding: 10px
+}
+
+
+header{
+	background-color:#FAF9F6;
+	width: 96%;
+	padding: 2%;
+	overflow: auto;
+}
+
+nav{
+	width:35%;
+	float: right;
+}/* ERROR not correct typeface*/
+
+ul li a{
+	color: black;
+	display: inline-block; 
+	background-color: #FAF9F6;
+	padding: 15px;
+	margin: 20px;
+	float: right;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	width: 0px auto;
+}
+
+.center {
+	text-align: center;
+	margin: 0px auto;
+}
+
+#socialicons {
+	text-align: center;
+	margin: 0px auto;
+}
+
+#logo {
+	width: 20%;
+	float: left;
+	margin: -10px;
+}
+
+#quote {
+	font-family: 'KeeponTruckin', Helvetica, sans-serif;
+	font-size: 250%;
+	color:black;
+	background-color: #B9DDF0;
+	padding:45px;
+	text-align: left;
+	width: 765px;
+	margin-left: 40px;
+		
+}
+
+.images {
+	width: 850px;
+	height: 0px auto;
+	padding: 45px;
+}
+
+.fix {
+	Clear: both;
+}
+
+.button {
+	font-family: 'KeeponTruckin', Helvetica, sans-serif;
+	font-size: 400%;
+	color: black;
+	background-color: #6CE092;
+	text-align: center;
+	display: inline-block;
+	margin: 40px;
+	cursor: pointer;
+	width: 855px;
+	height: 250px;
+}
+
+#quoteduce {
+	font-family: 'KeeponTruckin', Helvetica, sans-serif;
+	font-size: 250%;
+	color:black;
+	background-color: #4EF29E;
+	padding:45px;
+	text-align: left;
+	width: 765px;
+	max-height: -300px;
+	margin-left: 40px;
+	line-height: 2.0;
+}
+
+img.simages {
+	width: 600px;
+	height: auto;
+	padding: 45px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#center {
+	justify-content: center;
+	width: 100%;
+	display: flex;
+} 
